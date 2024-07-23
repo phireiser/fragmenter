@@ -7,7 +7,7 @@ Classes:
     - Fragmentation: A class that models the fragmentation process of a molecule.
 
 Usage example:
-    import Fragmentation
+    from fragmentation import Fragmentation
     smile = "CCO"
     reference_spectrum = zip([10, 20, 30], [1, 2, 3])
     energy_budget = 40.0
